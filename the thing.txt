@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is an awesome website!">
+	<title>Bill's awesome website</title>
+	</head>
+	<body>
+	<h1>Bill's Awesome Website</h1>
+	 Welcome to Bill's awesome website!
+	</body>
+</html>
