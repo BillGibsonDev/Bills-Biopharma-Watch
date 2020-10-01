@@ -22,6 +22,7 @@
 	a {
 		font-size: 25px;
 		font-family: fantasy;
+		color: black;
 	}
 
 	a {
@@ -49,9 +50,37 @@
 	font-size: 20px;
 	font-family: sans-serif;
 	}
+	.dropbtn{
+		padding: 2px;
+		font-size: 25px;
+	  font-family: fantasy;
+		border: none;
+		background-color: lightblue;
+	}
+	.dropdown{
+		position: relative;
+		display: inline-block;
+	}
+	.dropdown-content{
+		display: none;
+		position: absolute;
+		background-color: white;
+		min-width: 15px;
+		z-index 1;
+	}
+	.dropdown-content a {
+		color: black;
+		padding: 2px 2px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown-content a:hover {background-color: lightblue;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color:lightblue;}
+
+
  </style>
-
-
+</head>
 	<head>
 	 <meta charset="UTF-8">
 	 <meta name="description" content="This is an awesome website!">
@@ -60,15 +89,23 @@
 	<body style="background-color:orange;">
 <h1 align="center">Bill's BioPharma Watch</h1>
 <center>
+
 	<a href="index.html" >Home</a>
-  <a href="About.html" >About</a>
-	<a href="September.html" >September</a>
-	<a href="October.html" >October</a>
-	<a href="November.html" >November</a>
-	<a href="December.html" >December</a>
-  <a href="WatchList.html">WatchList</a>
+	<a href="About.html" >About</a>
+<div class="dropdown">
+	<button class="dropbtn">Month</button>
+		<div class="dropdown-content">
+			<a href="September.html" >September</a>
+			<a href="October.html" >October</a>
+			<a href="November.html" >November</a>
+			<a href="December.html" >December</a>
+		</div>
+</div>
+
+	<a href="WatchList.html">WatchList</a>
 	<a href="2021.html">2021</a>
 </center>
+</body>
 <hr>
 
 
@@ -78,47 +115,47 @@
 		<img width="500" src="DDDoodles_October_drips_styled.png" /></p>
 
 <hr>
-	<h2 align="center">Zosano Pharma Corp</h2>
+		<h2 align="center">Zosano Pharma Corp</h2>
 
-<center>
-  <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-ZSAN/" rel="noopener" target="_blank"></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
-  {
-  "symbol": "NASDAQ:ZSAN",
-  "width": 1000,
-  "locale": "en",
-  "colorTheme": "light",
-  "isTransparent": false
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
-</center>
-  <p>
-		<b>Z</b>osano Pharma Corporation, a clinical stage biopharmaceutical company, focuses on providing therapeutics to patients suffering from migraine using its Adhesive Dermally-Applied Microarray technology.
-		Its lead product candidate is Qtrypta (M207), a proprietary formulation of zolmitriptan used for the treatment of migraine. The company was founded in 2006 and is headquartered in Fremont, California.
-		<i>Source Fidelity.com</i>  </p>
-<center>
-<dl>
-  <dt><b>ZSAN PDUFA Dates</b></dt>
-    <dd><a href="https://finance.yahoo.com/news/zosano-pharma-receives-preliminary-fda-214000619.html"style="color:red;">October 20th Denied September 30th</a></dd>
+	<center>
+	  <!-- TradingView Widget BEGIN -->
+	<div class="tradingview-widget-container">
+	  <div class="tradingview-widget-container__widget"></div>
+	  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-ZSAN/" rel="noopener" target="_blank"></a></div>
+	  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+	  {
+	  "symbol": "NASDAQ:ZSAN",
+	  "width": 1000,
+	  "locale": "en",
+	  "colorTheme": "light",
+	  "isTransparent": false
+	}
+	  </script>
+	</div>
+	<!-- TradingView Widget END -->
+	</center>
+	  <p>
+			<b>Z</b>osano Pharma Corporation, a clinical stage biopharmaceutical company, focuses on providing therapeutics to patients suffering from migraine using its Adhesive Dermally-Applied Microarray technology.
+			Its lead product candidate is Qtrypta (M207), a proprietary formulation of zolmitriptan used for the treatment of migraine. The company was founded in 2006 and is headquartered in Fremont, California.
+			<i>Source Fidelity.com</i>  </p>
+	<center>
+	<dl>
+	  <dt><b>ZSAN PDUFA Dates</b></dt>
+	    <dd><a href="https://finance.yahoo.com/news/zosano-pharma-receives-preliminary-fda-214000619.html"style="color:red;">October 20th Denied September 30th</a></dd>
 
 
 
-  <h3>Research Links</h3>
+	  <h3>Research Links</h3>
 
-<p><a href="https://www.zosanopharma.com/" target="_blank" >Company Website</a></p>
-<p><a href="https://finance.yahoo.com/quote/ZSAN?p=ZSAN" target="_blank">Yahoo Fiance</a></p>
-<p><a href="https://stocktwits.com/symbol/ZSAN" target="_blank">StockTwits</a></p>
-<p><a href="https://www.tradingview.com/symbols/NASDAQ-ZSAN/?utm_campaign=mini-symbol-overview&utm_medium=widget_new" target="_blank">TradingView</a></p>
-<p><a href="https://www.biopharmcatalyst.com/" target="_blank">BioPharmCatalyst.com</a></p>
-</center>
+	<p><a href="https://www.zosanopharma.com/" target="_blank" >Company Website</a></p>
+	<p><a href="https://finance.yahoo.com/quote/ZSAN?p=ZSAN" target="_blank">Yahoo Fiance</a></p>
+	<p><a href="https://stocktwits.com/symbol/ZSAN" target="_blank">StockTwits</a></p>
+	<p><a href="https://www.tradingview.com/symbols/NASDAQ-ZSAN/?utm_campaign=mini-symbol-overview&utm_medium=widget_new" target="_blank">TradingView</a></p>
+	<p><a href="https://www.biopharmcatalyst.com/" target="_blank">BioPharmCatalyst.com</a></p>
+	</center>
 
 <p><hr></p>
-
+<body>
 <h2 align="center">FORTRESS BIOTECH INC</h2>
 
 <p>
@@ -138,8 +175,8 @@
 	</div>
 </center>
 
-  <p>
-<b>F</b>ortress Biotech, Inc. develops and commercializes pharmaceutical and biotechnology products. It markets dermatology products, such as Targadox for acne; Exelderm cream for ringworm and
+
+	<p> 	<b>F</b>ortress Biotech, Inc. develops and commercializes pharmaceutical and biotechnology products. It markets dermatology products, such as Targadox for acne; Exelderm cream for ringworm and
 jock itch symptoms; Ceracade for dry skin conditions; Luxamend for dressing and managing wounds; Ala-Scalp and Triderm, which are used for the inflammatory and pruritic manifestations of
 corticosteroid-responsive dermatoses; and Ala-Quin, an antibacterial and antifungal cream. The company also develops MB-107, a gene therapy for X-linked severe combined immunodeficiency; CAEL-101,
 a Phase Ia/Ib trial that reduces amyloid deposits in the tissues and organs; CD123 chimeric antigen receptor engineered T-cell (CAR T) program for acute myeloid leukemia; CD20 CAR T program for
@@ -188,10 +225,11 @@ was founded in 2006 and is based in New York, New York. <i>Source Fidelity.com</
   </script>
 </div>
 </center>
+</body>
 <!-- TradingView Widget END -->
 
 
-<p><b>S</b>pectrum Pharmaceuticals, Inc., a biopharma company, develops and commercializes oncology and hematology drug products. The company is developing ROLONTIS,
+<p>	<b>S</b>pectrum Pharmaceuticals, Inc., a biopharma company, develops and commercializes oncology and hematology drug products. The company is developing ROLONTIS,
 a novel long-acting granulocyte colony-stimulating for chemotherapy-induced neutropenia; Poziotinib, a novel irreversible tyrosine kinase inhibitor for non-small cell lung cancer tumors with
 various mutations; and Anti-CD20-IFNa, an antibody-interferon fusion molecule directed against CD20 that is in Phase I development for the treatment of relapsed or refractory non-Hodgkin's
 lymphoma patients, including diffuse large B-cell lymphoma. It has co-development, commercialization, and in-license agreements with Hanmi Pharmaceutical Co. Ltd.; a patent and technology
