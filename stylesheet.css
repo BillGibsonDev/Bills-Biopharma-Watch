@@ -25,6 +25,7 @@
 		font-family: serif;
 		color: black;
 		margin-left: 100px;
+		text-decoration: none;
 	}
 
 
@@ -115,16 +116,13 @@
 		display: none;
 		position: absolute;
 		background-color: white;
-		border: solid;
-		border-color: black;
-		border-width: 2px;
 		min-width: 10px;
 		margin-left: 80px;
 		z-index 1;
 	}
 	.dropdown-content a {
 		color: black;
-		padding: 5px;
+		padding: 20px;
 		text-decoration: none;
 		display: block;
 		margin-left: 1px;
