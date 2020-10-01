@@ -77,7 +77,7 @@
 		margin-right: 100px;
 		}
 	hr {
-		padding: 0px;
+		padding: 50px;
 		background-color: none;
 		border-color: none;
 		border-width: 0px;
@@ -137,6 +137,13 @@
 		margin-left: 90px;
 		max-width: 1675px;
 		align-content: left;
+	}
+
+	.October-container{
+		font-size: 25px;
+		font-family: serif;
+		align-items: center;
 
 
 	}
+}
