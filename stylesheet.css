@@ -2,12 +2,14 @@
 	h1 {
 		font-family: monospace;
 		font-size: 45px;
+		color: blue;
+		margin-left: 100px;
 	 }
 	 h1 {
-		 border-color: blue;
-		 border-width: 5px;
-		 border-style: solid;
-		 border-radius: 10px
+		 border-color: none;
+		 border-width: ;
+		 border-style: ;
+		 border-radius:
 	 }
 
 	 .thick-yellow-border {
@@ -19,23 +21,34 @@
 
 	a {
 		font-size: 25px;
-		font-family: fantasy;
+		font-family: serif;
 		color: black;
+		margin-left: 100px;
 	}
 
-	a {
-		margin: 10px;
-	}
 
 	h2 {
-		font-size: 30px;
-		font-family: inherit;
+		font-size: 50px;
+		font-family: serif;
+		padding: 50px;
+		border: solid;
+		border-radius: 10px;
+		border-width: 5px;
+		border-color: black;
+		margin-left: 50px;
+		margin-right: 50px;
+
 	}
 
 	h3 {
 		font-size: 25px;
 		font-family:serif;
+		padding-top: 20px;
+}
+	img{
+		padding-top: 105px;
 	}
+
 	dt {
 		font-size: 25px;
 		font-family: serif;
@@ -44,34 +57,78 @@
 		font-size: 20px;
 		font-family: sans-serif;
 	}
-	p {
-	font-size: 20px;
-	font-family: sans-serif;
+	ul {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
 	}
+	li{
+		display: grid;
+		grid-template-columns: 1fr,1fr,1fr,1fr,1fr;
+		grid-template-rows: auto;
+	}
+
+	p {
+		font-size: 20px;
+		font-family: sans-serif;
+		margin-left: 100px;
+		margin-right: 100px;
+		}
+	hr {
+		padding: 0px;
+		background-color: none;
+		border-color: none;
+		border-width: 0px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.pdufa-container{
+		font-size: 20px;
+		font-color: black;
+		display: table-row;
+		padding: 50px;
+
+	}
+
+	.research-container{
+		font-size: 20px;
+		font-style: fantasy;
+		padding: 2px;
+		padding-bottom: 200px;
+		color: blue;
+	}
+
 	.dropbtn{
 		padding: 2px;
 		font-size: 25px;
-	  font-family: fantasy;
+	  font-family: serif;
 		border: none;
-		background-color: lightgrey;
+		margin-left: 100px;
 	}
 	.dropdown{
 		position: relative;
 		display: inline-block;
+
 	}
 	.dropdown-content{
 		display: none;
 		position: absolute;
 		background-color: white;
-		min-width: 15px;
+		border: solid;
+		border-color: black;
+		border-width: 2px;
+		min-width: 10px;
+		margin-left: 80px;
 		z-index 1;
 	}
 	.dropdown-content a {
 		color: black;
-		padding: 2px 2px;
+		padding: 5px;
 		text-decoration: none;
 		display: block;
+		margin-left: 1px;
+		margin-right: 1px;
 	}
-.dropdown-content a:hover {background-color: lightblue;}
+.dropdown-content a:hover {background-color: yellow;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color:lightblue;}
+.dropdown:hover .dropbtn {background-color:yellow;}
