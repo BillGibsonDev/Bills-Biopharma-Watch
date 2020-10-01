@@ -21,24 +21,25 @@
 	 }
 
 	a {
-		font-size: 25px;
+		font-size: 20px;
 		font-family: serif;
 		color: black;
 		margin-left: 100px;
 		text-decoration: none;
+		padding: -150px;
 	}
 
 
 	h2 {
 		font-size: 50px;
 		font-family: serif;
-		padding: 50px;
+		padding: 20px;
 		border: solid;
 		border-radius: 10px;
 		border-width: 5px;
 		border-color: black;
-		margin-left: 50px;
-		margin-right: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
 
 	}
 
@@ -48,7 +49,7 @@
 		padding-top: 20px;
 }
 	img{
-		padding-top: 105px;
+		padding-top: 50px;
 	}
 
 	dt {
@@ -102,7 +103,7 @@
 
 	.dropbtn{
 		padding: 2px;
-		font-size: 25px;
+		font-size: 20px;
 	  font-family: serif;
 		border: none;
 		margin-left: 100px;
@@ -131,3 +132,12 @@
 .dropdown-content a:hover {background-color: yellow;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color:yellow;}
+
+	.tradingview-widget-container{
+		padding-top: 35px;
+		margin-left: 90px;
+		max-width: 1675px;
+		align-content: left;
+
+
+	}
