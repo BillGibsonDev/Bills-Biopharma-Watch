@@ -6,6 +6,7 @@
 		margin-left: 100px;
 		text-shadow: 2px 2px 5px black;
 	 }
+
 	 h1 {
 		 border-color: none;
 		 border-width: ;
@@ -28,7 +29,6 @@
 		margin-left: 60px;
 		text-decoration: none;
 		padding: 0px;
-
 	}
 
 	h2 {
@@ -41,22 +41,23 @@
 		border-color: black;
 		margin-left: 100px;
 		margin-right: 100px;
-
-	}
+		}
 
 	h3 {
 		font-size: 25px;
 		font-family:serif;
 		padding-top: 20px;
 }
+
 	img{
-		padding-top: 50px;
+		padding-top:50px;
 	}
 
 	dt {
 		font-size: 25px;
 		font-family: serif;
 	}
+
 	dl {
 		font-size: 20px;
 		font-family: sans-serif;
@@ -65,7 +66,6 @@
 		list-style-type: none;
 		font-family: 'Lato', san-serif;
 		color: black;
-		position: sticky;
 	}
 	li{
 		font-family: 'Lato', san-serif;
@@ -80,6 +80,7 @@
 		margin-left: 100px;
 		margin-right: 100px;
 		}
+
 	hr {
 		padding: 50px;
 		background-color: none;
@@ -91,11 +92,22 @@
 	.active{
 		background-color: blue;
 	}
+
 	.nav-item{
 		font-size: 22px;
 		font-family: serif;
 		color: black;
+		display: block;
+		text-align: center;
+
 	}
+	.nav-item:hover {
+		border: dashed;
+		border-width: 3px;
+		border-color: black;
+		color: green;
+	}
+
 
 	.pdufa-container{
 		font-size: 20px;
@@ -112,9 +124,6 @@
 		color: blue;
 		margin-left: 0px;
 		word-spacing: 0px;
-
-
-
 	}
 
 	.dropbtn{
@@ -125,6 +134,14 @@
 		margin-left: 70px;
 		color: black;
 	}
+	.dropbtn:hover {
+		background-color: black;
+		border: dashed;
+		border-width: 3px;
+		border-color: black;
+		color: green;
+	}
+
 	.dropdown{
 		position: relative;
 		display: inline-block;
@@ -151,10 +168,10 @@
 .dropdown:hover .dropbtn {background-color:yellow;}
 
 	.tradingview-widget-container{
-		padding-top: 35px;
-		margin-left: 60px;
+		padding-top: 30px;
+		margin-left: 105px;
 		max-width: 1675px;
-		align-content: left;
+		align-items: left;
 	}
 
 	.October-container{
