@@ -22,10 +22,12 @@
 
 	a {
 		font-size: 20px;
-		font-family: serif;
+		font-family: 'Lato', san-serif;
 		color: black;
-		margin-left: 100px;
+		margin-left: 60px;
 		text-decoration: none;
+		display: block;
+		padding: 0px;
 	}
 
 	h2 {
@@ -59,14 +61,14 @@
 		font-family: sans-serif;
 	}
 	ul {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: auto;
+		list-style-type: none;
+		font-family: 'Lato', san-serif;
+		color: black;
 	}
 	li{
-		display: grid;
-		grid-template-columns: 1fr,1fr,1fr,1fr,1fr;
-		grid-template-rows: auto;
+		font-family: 'Lato', san-serif;
+		float:left;
+		color: black;
 	}
 
 	p {
@@ -83,6 +85,12 @@
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+	.nav-item{
+		font-size: 22px;
+		font-family: serif;
+		color: black;
+	}
+
 	.pdufa-container{
 		font-size: 20px;
 		font-color: black;
@@ -101,10 +109,11 @@
 
 	.dropbtn{
 		padding: 2px;
-		font-size: 20px;
+		font-size: 22px;
 	  font-family: serif;
 		border: none;
-		margin-left: 100px;
+		margin-left: 70px;
+		color: black;
 	}
 	.dropdown{
 		position: relative;
@@ -116,12 +125,12 @@
 		position: absolute;
 		background-color: white;
 		min-width: 10px;
-		margin-left: 80px;
+		margin-left: 45px;
 		z-index 1;
 	}
 	.dropdown-content a {
 		color: black;
-		padding: 20px;
+		padding: 10px;
 		text-decoration: none;
 		display: block;
 		margin-left: 1px;
