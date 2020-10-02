@@ -4,6 +4,7 @@
 		font-size: 45px;
 		color: blue;
 		margin-left: 100px;
+		text-shadow: 2px 2px 5px black;
 	 }
 	 h1 {
 		 border-color: none;
@@ -64,6 +65,7 @@
 		list-style-type: none;
 		font-family: 'Lato', san-serif;
 		color: black;
+		position: sticky;
 	}
 	li{
 		font-family: 'Lato', san-serif;
@@ -74,6 +76,7 @@
 	p {
 		font-size: 20px;
 		font-family: sans-serif;
+		text-indent: 15px;
 		margin-left: 100px;
 		margin-right: 100px;
 		}
@@ -102,10 +105,11 @@
 	.research-container{
 		font-size: 20px;
 		font-style: fantasy;
-		padding: 2px;
+		padding: 20px;
 		padding-bottom: 200px;
 		color: blue;
 		margin-left: 0;
+		word-spacing: 0px;
 	}
 
 	.dropbtn{
