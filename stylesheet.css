@@ -5,14 +5,20 @@
 		color: blue;
 		margin-left: 100px;
 		text-shadow: 2px 2px 5px black;
+		display: flex;
 	 }
 
-	 h1 {
-		 border-color: none;
-		 border-width: ;
-		 border-style: ;
-		 border-radius:
+	 .header-title{
+		 display: flex;
+
 	 }
+
+	 .bino-img{
+		 display: flex;
+		 justify-content: space-between;
+		 width: 100px;
+	 }
+
 
 	 .thick-yellow-border {
 		 border-color: yellow;
@@ -29,6 +35,7 @@
 		margin-left: 60px;
 		text-decoration: none;
 		padding: 0px;
+
 	}
 
 	h2 {
@@ -97,15 +104,13 @@
 		font-size: 22px;
 		font-family: serif;
 		color: black;
-		display: block;
+		display: flex;
 		text-align: center;
 
 	}
 	.nav-item:hover {
-		border: dashed;
-		border-width: 3px;
-		border-color: black;
-		color: green;
+		text-decoration: underline;
+		color: black;
 	}
 
 
@@ -135,11 +140,8 @@
 		color: black;
 	}
 	.dropbtn:hover {
-		background-color: black;
-		border: dashed;
-		border-width: 3px;
-		border-color: black;
-		color: green;
+		text-decoration: underline;
+		color: black;
 	}
 
 	.dropdown{
@@ -163,7 +165,7 @@
 		margin-left: 1px;
 		margin-right: 1px;
 	}
-.dropdown-content a:hover {background-color: yellow;}
+.dropdown-content a:hover {background-color:yellow}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color:yellow;}
 
