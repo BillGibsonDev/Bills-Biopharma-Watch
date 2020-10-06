@@ -50,7 +50,7 @@
 		font-family: serif;
 		padding: 20px;
 		border: solid;
-		border-radius: 10px;
+		border-radius: 0px;
 		border-width: 5px;
 		border-color: black;
 		margin-left: 100px;
@@ -64,7 +64,7 @@
 }
 
 	img{
-		padding-top:50px;
+		padding-top: 0px;
 	}
 
 	dt {
@@ -120,6 +120,17 @@
 		color: black;
 	}
 
+.left-column{
+	float: left;
+	width: 50%
+
+}
+
+.right-column{
+	float: right;
+	width: 50%
+
+}
 
 	.pdufa-container{
 		font-size: 20px;
@@ -131,8 +142,8 @@
 	.research-container{
 		font-size: 20px;
 		font-style: fantasy;
-		padding: 20px;
-		padding-bottom: 200px;
+		padding: 5px;
+		padding-bottom: 25px;
 		color: blue;
 		margin-left: 0px;
 		word-spacing: 0px;
