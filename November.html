@@ -39,76 +39,68 @@
 		</div>
 </ul>
 
+<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-	 <div class="tradingview-widget-container__widget"></div>
-	 <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"></a></div>
-	 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-	 {
-	 "symbols": [
-	   {
-	     "description": "",
-	     "proName": "NASDAQ:GILD"
-	   },
-	  {
-	     "description": "",
-	     "proName": "HRMY"
-	   },
-	   {
-	     "description": "",
-	     "proName": "ETON"
-	   },
-	   {
-	     "description": "",
-	     "proName": "AQST"
-	   },
-	   {
-	     "description": "",
-	     "proName": "BCRX"
-	   },
-	   {
-	     "description": "",
-	     "proName": "ZSAN"
-	   },
-	   {
-	     "description": "",
-	     "proName": "KMPH"
-	   },
-	   {
-	     "description": "",
-	     "proName": "ADMP"
-	   },
-	   {
-	     "description": "",
-	     "proName": "FBIO"
-	   },
-	   {
-	     "description": "",
-	     "proName": "LQDA"
-	   },
-	   {
-	     "description": "",
-	     "proName": "MNK"
-	   },
-	   {
-	     "description": "",
-	     "proName": "NYSE:PFE"
-	   },
-	   {
-	     "description": "",
-	     "proName": "SPPI"
-	   }
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "description": "",
+      "proName": "NASDAQ:LQDA"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:ADMP"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:SUPN"
+    }
   ],
-	 "colorTheme": "light",
-	 "isTransparent": true,
-	 "displayMode": "adaptive",
-	 "locale": "en"	}
-	 </script>
- </div>
+  "colorTheme": "light",
+  "isTransparent": false,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 
 <p align="center">
 		<img width="500" src="November.png" />
+
+		<hr>
 		<center>
-		<h2 align="center">Supernus Pharmaceuticals Inc</h2>
+		<table border="2px">
+			<thead>
+				<tr>
+					<th>Ticker</th>
+					<th>PDUFA Date</th>
+					<th>Price Target</th>
+				</tr>
+			</thead>
+			<tr>
+				<td><a href="#SUPN">SUPN</a></td>
+				<td>November 8th</td>
+				<td>24 - 31$</td>
+			</tr>
+			<tr>
+				<td><a href="#ADMP">ADMP</a></td>
+				<td>November 15th</td>
+				<td>1.50$</td>
+			</tr>
+			<tr>
+				<td><a href="#LQDA">LQDA</a></td>
+				<td>November 24th</td>
+				<td>None</td>
+			</tr>
+		</table>
+		</center>
+		<hr>
+
+		<center>
+		<h2 align="center" id="SUPN">Supernus Pharmaceuticals Inc</h2>
 	</center>
 		<Center>
 		<!-- TradingView Widget BEGIN -->
@@ -152,7 +144,7 @@
 			</center>
 		</span>
 		<p><hr></p>
-<h2 align="center">ADAMIS PHARMACEUTICALS CORP</h2>
+<h2 align="center" id="ADMP">ADAMIS PHARMACEUTICALS CORP</h2>
 <Center>
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -196,7 +188,7 @@
 </span>
 <p><hr></p>
 
-<h2 align="center">LIQUIDIA TECHNOLOGIES INC</h2>
+<h2 align="center" id="LQDA">LIQUIDIA TECHNOLOGIES INC</h2>
 
 <center>
 <div class="tradingview-widget-container">

@@ -121,16 +121,28 @@
 	}
 
 .left-column{
+	display: table;
 	float: left;
 	width: 50%
+	}
 
-}
+.left-column::after{
+	content: "";
+	clear: both;
+	display: table;
+	}
 
 .right-column{
+	display: table;
 	float: right;
 	width: 50%
+	}
 
-}
+.right-column::after{
+	content: "";
+	clear: both;
+	display: table;
+	}
 
 	.pdufa-container{
 		font-size: 20px;
@@ -200,4 +212,14 @@
 		padding: 10px;
 
 	}
+
+table {
+	width: 1000px;
+	border-color: black;
+	border-width: : 5px;
+	font-size: 25px;
+}
+
+td {
+	padding: 15px;
 }
